@@ -1,0 +1,100 @@
+{
+    "generalDetails":
+        {
+            "ucmId":"CSE-000000-00000",
+            "primarySubject":"Primary Subject",
+            "npi":"1234",
+            "zoneRestriction":"Partial",
+            "dollarsOnPaymentFloor":12000,
+            "asOfDate":"2021-01-31T02:27:42.546Z",
+            "monthPaid":1000
+        },
+    "caseInformation":
+        {
+            "investigationStarted": "2020-01-31T02:27:42.546Z",
+            "vetted": "2020-02-31T02:27:42.546Z",
+            "lastOpened": "2021-02-01T02:27:42.546Z",
+            "leadSource": "OIG Tipline",
+            "claimType": 123,
+            "allegationSummary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi est sit amet facilisis magna etiam"
+        },
+    "providerInformation":
+        {
+            "city": "Alpharetta",
+            "state": "GA",
+            "sacRegion": "Region 1",
+            "specialtyType": "Cardiology",
+            "enrollmentStatus": "Active",
+            "sac": "John Portman",
+            "mccNotes": null
+        },
+    "providerLocations":
+        [
+            {
+                "type": "Hospital",
+                "address": {
+                    "streetAddress": "1234 Hospital RdSuite #3A",
+                    "city": "Gaithersburg",
+                    "state": "Maryland",
+                    "zip": "20878",
+                    "country": "USA"
+                },
+                "ptan": "12DA333"
+            },
+            {
+                "type": "Office",
+                "address": {
+                    "streetAddress": "1234 Hospital RdSuite #3A",
+                    "city": "Rockville",
+                    "state": "Maryland",
+                    "zip": "20834",
+                    "country": "USA"
+                },
+                "ptan": "54GR543"
+            },
+            {
+                "type": "Mobile",
+                "address": {
+                    "streetAddress": "1234 Hospital RdSuite #3A",
+                    "city": "Germantown",
+                    "state": "Maryland",
+                    "zip": "20608",
+                    "country": "USA"
+                },
+                "ptan": "12ER563"
+            }
+        ],
+    "reportingSpecialties": 
+        [
+            {
+                "npi": "A43245",
+                "ptan": "0492294",
+                "specialty": "Cardiology",
+                "specialtyCode": "C-12",
+                "type": "S",
+                "source": "UCM",
+                "effectiveDate": "2021-02-01T02:27:42.546Z",
+                "endDate": "2021-02-11T02:27:42.546Z"
+            },
+            {
+                "npi": "A43278",
+                "ptan": "049111",
+                "specialty": "Cardiology",
+                "specialtyCode": "C-12",
+                "type": "S",
+                "source": "UCM",
+                "effectiveDate": "2021-02-09T02:27:42.546Z",
+                "endDate": "2021-02-17T02:27:42.546Z"
+            },
+            {
+                "npi": "A40000",
+                "ptan": "049555",
+                "specialty": "Cardiology",
+                "specialtyCode": "C-12",
+                "type": "S",
+                "source": "UCM",
+                "effectiveDate": "2020-08-09T02:27:42.546Z",
+                "endDate": "2020-09-17T02:27:42.546Z"
+            }
+        ]
+}
